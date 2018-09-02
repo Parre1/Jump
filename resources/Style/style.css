@@ -1,0 +1,164 @@
+/*Universal*/
+html{
+  font-size:16px;
+  font-family: sans-serif;
+}
+
+.container-fluid{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Sharing style*/
+
+#explore,
+#project,
+#product-categories{
+  color: #00a3cc;
+}
+
+/* Header */
+
+.navbar{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+/* Jumbotron */
+
+.background-bike,
+.background-duffel,
+.background-flowers,
+.background-beer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.background-bike{
+  background-image: url('../resources/image/jumbotron-bike.jpg');
+}
+
+.background-duffel{
+  background-image: url("../resources/image/jumbotron-duffel.jpg");
+}
+
+.background-flowers{
+  background-image: url("../resources/image/jumbotron-flowers.jpg");
+}
+
+.background-beer{
+  background-image: url("resources/image/jumbotron-beer.jpg");
+}
+
+.jumbotron h1{
+  padding-top: 20rem;
+  font-family: "Monoton", sans-serif;
+  margin: 0 auto;
+}
+
+.jumbotron p{
+  padding-top: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  color: white;
+  margin: 0 auto;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.btn-primary{
+  background-color: #80b3ff;
+  margin-top: 4rem;
+  width: 15rem;
+  height: 5rem;
+}
+
+#startup{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: white;
+}
+
+#going{
+  color: white;
+  font-size: 10rem;
+}
+
+#primary-btn{
+  font-size: 2rem;
+}
+
+/* Featured projects */
+
+.list{
+  font-weight: 300;
+}
+
+#project{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00a3cc;
+}
+
+#product-categories,
+#project-title{
+  font-weight: 600;
+}
+
+/* Projects */
+
+.project-title img{
+  width: 100%;
+}
+
+.project-title{
+  margin-bottom: 5rem;
+}
+
+.projects h2{
+  padding-left: 0;
+}
+
+/* Footer */
+
+footer{
+  background-color: #d6f5f5;
+  text-align: center;
+}
+
+footer .container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer h1{
+  font-weight: 600;
+}
+
+ul p{
+  padding: 0;
+  margin: 0;
+}
+
+#gigli{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+footer .btn-primary{
+  margin: 0;
+}
